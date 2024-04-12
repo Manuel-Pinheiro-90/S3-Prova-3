@@ -417,7 +417,7 @@ console.log("Esercizio 13", numeroFilm);
   Scrivi una funzione chiamata "onlyTheYears" che crea un array con solamente gli anni di uscita dei film contenuti nell'array "movies" fornito.
 */
 function onlyTheYears(movies) {
-  const years = movies.map((movie) => movie.Year); // Usa 'Year' anziché 'year'
+  const years = movies.map((movie) => movie.Year); 
   return years;
 }
 
@@ -595,7 +595,6 @@ function svuotaLista() {
     lista.removeChild(lista.firstChild);
   }
 }
-
 svuotaLista();
 
 
@@ -609,8 +608,6 @@ function aggiungiClasseTR() {
     trElements[i].classList.add('test');
   }
 }
-
-
 aggiungiClasseTR();
 
 // [EXTRA] JS Avanzato
